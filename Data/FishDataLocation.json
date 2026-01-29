@@ -1,0 +1,315 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Forest",
+        "Fish"
+      ],
+      "Entries": {
+                "Scardinius": {
+                    "Id": "Scardinius",
+                    "ItemId": "Scardinius",
+                    "Condition": "LOCATION_SEASON Here spring summer"
+
+                },
+                "Silver_Carp": {
+                    "Id": "Silver_Carp",
+                    "ItemId": "Silver_Carp",
+                    "Condition": "LOCATION_SEASON Here fall spring"
+                },
+                "Snakehead": {
+                    "Id": "Snakehead",
+                    "ItemId": "Snakehead",
+                    "Condition": "LOCATION_SEASON Here summer winter"
+                },
+                "Electric_Eel": {
+                    "Id": "Electric_Eel",
+                    "ItemId": "Electric_Eel",
+                    "Condition": "LOCATION_SEASON Here fall winter"
+
+                },
+                "Pond_Frog": {
+                    "Id": "Pond_Frog",
+                    "ItemId": "Pond_Frog",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                    "FishAreaId": "Lake"
+
+                },
+                "Winter_Frog": {
+                    "Id": "Winter_Frog",
+                    "ItemId": "Winter_Frog",
+                    "Condition": "LOCATION_SEASON Here winter",
+                    "FishAreaId": "Lake"
+
+                },
+                "Mirror_Carp": {
+                    "Id": "Mirror_Carp",
+                    "ItemId": "Mirror_Carp",
+                    "Condition": "LOCATION_SEASON Here summer fall"
+
+                }
+            }
+        },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Mountain",
+        "Fish"
+      ],
+      "Entries": {
+                "Asp": {
+                    "Id": "Asp",
+                    "ItemId": "Asp",
+                    "Condition": "LOCATION_SEASON Here spring summer fall"
+
+                },
+                "Tench": {
+                    "Id": "Tench",
+                    "ItemId": "Tench",
+                    "Condition": "LOCATION_SEASON Here spring winter"
+                },
+                "Golden_Amur": {
+                    "Id": "Golden_Amur",
+                    "ItemId": "Golden_Amur",
+                    "Condition": "LOCATION_SEASON Here spring summer"
+                },
+                "Pond_Frog": {
+                    "Id": "Pond_Frog",
+                    "ItemId": "Pond_Frog",
+                    "Condition": "LOCATION_SEASON Here spring summer"
+
+                },
+                "Winter_Frog": {
+                    "Id": "Winter_Frog",
+                    "ItemId": "Winter_Frog",
+                    "Condition": "LOCATION_SEASON Here winter"
+
+                },
+                "Latimeria": {
+                    "Id": "Latimeria",
+                    "ItemId": "Latimeria",
+                    "Condition": "LOCATION_SEASON Here fall winter"
+
+                },
+                "Chinese_Sleeper": {
+                    "Id": "Chinese_Sleeper",
+                    "ItemId": "Chinese_Sleeper",
+                    "Condition": "LOCATION_SEASON Here spring fall winter"
+
+                },
+                "Ruffe": {
+                    "Id": "Ruffe",
+                    "ItemId": "Ruffe",
+                    "Condition": "LOCATION_SEASON Here fall winter"
+
+                },
+                "Loach": {
+                    "Id": "Loach",
+                    "ItemId": "Loach",
+                    "Condition": "LOCATION_SEASON Here fall winter"
+
+                },
+                "Crucian_Carp": {
+                    "Id": "Crucian_Carp",
+                    "ItemId": "Crucian_Carp",
+                    "Condition": "LOCATION_SEASON Here spring summer fall"
+
+                },
+                "Beluga": {
+                    "Id": "Beluga",
+                    "ItemId": "Beluga",
+                    "Condition": "LOCATION_SEASON Here spring fall"
+
+                },
+                "Musky": {
+                    "Id": "Musky",
+                    "ItemId": "Musky",
+                    "Condition": "LOCATION_SEASON Here summer fall"
+
+                }
+            }
+        },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Beach",
+        "Fish"
+      ],
+      "Entries": {
+                "Latimeria": {
+                    "Id": "Latimeria",
+                    "ItemId": "Latimeria",
+                    "Condition": "LOCATION_SEASON Here fall winter"
+
+                },
+                "Sebastes": {
+                    "Id": "Sebastes",
+                    "ItemId": "Sebastes",
+                    "Condition": "LOCATION_SEASON Here spring fall"
+                },
+                "Mackerel": {
+                    "Id": "Mackerel",
+                    "ItemId": "Mackerel",
+                    "Condition": "LOCATION_SEASON Here spring winter"
+                },
+                "Flying_Fish": {
+                    "Id": "Flying_Fish",
+                    "ItemId": "Flying_Fish",
+                    "Condition": "LOCATION_SEASON Here spring summer winter"
+
+                },
+                "Coryphaena": {
+                    "Id": "Coryphaena",
+                    "ItemId": "Coryphaena",
+                    "Condition": "LOCATION_SEASON Here spring summer fall"
+
+                },
+                "Tiger_Shark": {
+                    "Id": "Tiger_Shark",
+                    "ItemId": "Tiger_Shark",
+                    "Condition": "LOCATION_SEASON Here summer fall"
+
+                },
+                "Jawfish": {
+                    "Id": "Jawfish",
+                    "ItemId": "Jawfish",
+                    "Condition": "LOCATION_SEASON Here summer fall winter"
+
+                },
+                "Tarpon": {
+                    "Id": "Tarpon",
+                    "ItemId": "Tarpon",
+                    "Condition": "LOCATION_SEASON Here summer winter"
+
+                },
+                "Deep_Sea_Tuna": {
+                    "Id": "Deep_Sea_Tuna",
+                    "ItemId": "Deep_Sea_Tuna",
+                    "Condition": "LOCATION_SEASON Here spring fall"
+
+                },
+                "Sea_Bream": {
+                    "Id": "Sea_Bream",
+                    "ItemId": "Sea_Bream",
+                    "Condition": "LOCATION_SEASON Here winter"
+
+                }
+
+            }
+        },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Woods",
+        "Fish"
+      ],
+      "Entries": {
+                "Redtail_Catfish": {
+                    "Id": "Redtail_Catfish",
+                    "ItemId": "Redtail_Catfish",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+
+                },
+                "Beaver_Fish": {
+                    "Id": "Beaver_Fish",
+                    "ItemId": "Beaver_Fish",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+
+                },
+                "Golden_Trout": {
+                    "Id": "Golden_Trout",
+                    "ItemId": "Golden_Trout",
+                    "Condition": "LOCATION_SEASON Here spring summer fall"
+
+                },
+                "Dolly_Varden_Trout": {
+                    "Id": "Dolly_Varden_Trout",
+                    "ItemId": "Dolly_Varden_Trout",
+                    "Condition": "LOCATION_SEASON Here spring fall"
+
+                },
+                "Bersh": {
+                    "Id": "Bersh",
+                    "ItemId": "Bersh",
+                    "Condition": "LOCATION_SEASON Here spring summer winter"
+
+                }
+            }
+        },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandWest",
+        "Fish"
+      ],
+      "Entries": {
+                "Pink_Dolphin": {
+                    "Id": "Pink_Dolphin",
+                    "ItemId": "Pink_Dolphin",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+
+                },
+                "Marlin": {
+                    "Id": "Marlin",
+                    "ItemId": "Marlin",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "Moray_Eel": {
+                    "Id": "Moray_Eel",
+                    "ItemId": "Moray_Eel",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "Ocean_Sunfish": {
+                    "Id": "Ocean_Sunfish",
+                    "ItemId": "Ocean_Sunfish",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "Triggerfish": {
+                    "Id": "Triggerfish",
+                    "ItemId": "Triggerfish",
+                    "Condition": "LOCATION_SEASON Here summer fall"
+                }
+            }
+        },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Sewer",
+        "Fish"
+      ],
+      "Entries": {
+                "Channel_Catfish": {
+                    "Id": "Channel_Catfish",
+                    "ItemId": "Channel_Catfish",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+
+                },
+                "Radioactive_Crucian": {
+                    "Id": "Radioactive_Crucian",
+                    "ItemId": "Radioactive_Crucian",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+
+                },
+                "Radioactive_Perch": {
+                    "Id": "Radioactive_Perch",
+                    "ItemId": "Radioactive_Perch",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+
+                },
+                "Peeper": {
+                    "Id": "Peeper",
+                    "ItemId": "Peeper",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+
+                }
+            }
+        }
+  ]
+}
