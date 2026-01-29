@@ -7,7 +7,7 @@
 		{
 			"LogName": "Include",	
 			"Action": "Include",
-			"FromFile": "Data/FishDataAquarium.json, Data/FishDataInfo.json, Data/FishDataLocation.json, Data/FishDataSprite.json, Data/FishDataStats.json,Data/FishDataPond.json"
+			"FromFile": "Data/FishDataAquarium.json, Data/FishDataInfo.json, Data/FishDataLocation.json, Data/FishDataSprite.json, Data/FishDataStats.json,Data/FishDataPond.json, Data/ArcB_SpecialOrders.json"
 		}
 	]
 }

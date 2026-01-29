@@ -1,0 +1,160 @@
+{
+  "Changes": [
+    {
+      "LogName": "Arc B Phase 1 - Warm Village Tales",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When": {
+        "Conditions": "YEAR >= 1"
+      },
+      "Entries": {
+        "GC_ArcB_Phase1": {
+          "Name": "GC_ArcB_Phase1",
+          "OrderType": "ItemDelivery",
+          "SpecialRule": "NONE",
+          "Duration": "Month",
+          "Repeatable": "False",
+          "Requester": "Willy",
+          "DisplayName": "{{i18n:arcB.phase1.name}}",
+          "Description": "{{i18n:arcB.phase1.desc}}",
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:arcB.phase1.obj1}}",
+              "RequiredCount": 1,
+              "Data": {
+                "ItemId": "Scardinius"
+              }
+            },
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:arcB.phase1.obj2}}",
+              "RequiredCount": 1,
+              "Data": {
+                "ItemId": "Mackerel"
+              }
+            },
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:arcB.phase1.obj3}}",
+              "RequiredCount": 1,
+              "Data": {
+                "ItemId": "Pond_Frog"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Amount": 600
+            }
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "Arc B Phase 2 - Seasonal Bonds",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When": {
+        "Conditions": "PLAYER_FISHING_LEVEL >= 6"
+      },
+      "Entries": {
+        "GC_ArcB_Phase2": {
+          "Name": "GC_ArcB_Phase2",
+          "OrderType": "ItemDelivery",
+          "SpecialRule": "NONE",
+          "Duration": "Month",
+          "Repeatable": "False",
+          "Requester": "Elliott",
+          "DisplayName": "{{i18n:arcB.phase2.name}}",
+          "Description": "{{i18n:arcB.phase2.desc}}",
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:arcB.phase2.obj1}}",
+              "RequiredCount": 1,
+              "Data": {
+                "ItemId": "Coryphaena"
+              }
+            },
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:arcB.phase2.obj2}}",
+              "RequiredCount": 1,
+              "Data": {
+                "ItemId": "Latimeria"
+              }
+            },
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:arcB.phase2.obj3}}",
+              "RequiredCount": 1,
+              "Data": {
+                "ItemId": "Tiger_Shark"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Amount": 1200
+            }
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "Arc B Phase 3 - Community Fishing Day",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When": {
+        "Conditions": "YEAR >= 2, PLAYER_FISHING_LEVEL >= 8"
+      },
+      "Entries": {
+        "GC_ArcB_Phase3": {
+          "Name": "GC_ArcB_Phase3",
+          "OrderType": "ItemDelivery",
+          "SpecialRule": "NONE",
+          "Duration": "Month",
+          "Repeatable": "False",
+          "Requester": "Willy",
+          "DisplayName": "{{i18n:arcB.phase3.name}}",
+          "Description": "{{i18n:arcB.phase3.desc}}",
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:arcB.phase3.obj1}}",
+              "RequiredCount": 1,
+              "Data": {
+                "ItemId": "Beluga"
+              }
+            },
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:arcB.phase3.obj2}}",
+              "RequiredCount": 1,
+              "Data": {
+                "ItemId": "Marlin"
+              }
+            },
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:arcB.phase3.obj3}}",
+              "RequiredCount": 1,
+              "Data": {
+                "ItemId": "Ocean_Sunfish"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Amount": 2500
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,8 +1,5 @@
 {
 
-// v1.0.0
-// Text for version 1.0.0
-
 "scardinius.name": "Scardinius",
 "scardinius.description": "Red-eared carp keeps in quiet, clear water, in thickets of reeds and other aquatic vegetation, rarely goes to open areas of the reservoir.",
 "silver_carp.name": "Silver Carp",
@@ -68,9 +65,6 @@
 "beluga.name": "Beluga",
 "beluga.description": "This is the largest freshwater fish on the planet.",
 
-// v1.1.0
-// Text for version 1.1.0
-
 "tarpon.name": "Tarpon",
 "tarpon.description": "A large marine fish known for its silvery scales and spectacular leaps out of the water.",
 "deep_sea_tuna.name": "Deep-sea tuna",
@@ -96,5 +90,23 @@
 "river_shrimp.name": "River shrimp",
 "river_shrimp.description": "A small freshwater shrimp that is an important part of the aquatic food chain.",
 "firefly_crab.name": "Firefly Crab",
-"firefly_crab.description": "A fantastical crab species capable of bioluminescence, emitting a blue or green glow."
+"firefly_crab.description": "A fantastical crab species capable of bioluminescence, emitting a blue or green glow.",
+
+"arcB.phase1.name": "Warm Village Tales",
+"arcB.phase1.desc": "Willy wants a few simple catches to lift the town's spirits. Bring a set of friendly fish for the saloon kitchen and a small gift for Evelyn.",
+"arcB.phase1.obj1": "Catch a Scardinius for Willy.",
+"arcB.phase1.obj2": "Bring a Mackerel for Gus' seasonal soup.",
+"arcB.phase1.obj3": "Catch a Pond Frog for Evelyn's keepsake.",
+
+"arcB.phase2.name": "Seasonal Bonds",
+"arcB.phase2.desc": "The village asks for rarer, seasonal fish to inspire stories and winter comfort. Prove your skill and care.",
+"arcB.phase2.obj1": "Catch a Coryphaena for Elliott's inspiration.",
+"arcB.phase2.obj2": "Catch a Latimeria for Sebastian's quiet request.",
+"arcB.phase2.obj3": "Bring a Tiger Shark for Gus' special dish.",
+
+"arcB.phase3.name": "Community Fishing Day",
+"arcB.phase3.desc": "A big town event is planned. Bring three outstanding fish to celebrate the village's fishing tradition.",
+"arcB.phase3.obj1": "Catch a Beluga for the community feast.",
+"arcB.phase3.obj2": "Catch a Marlin for the festival table.",
+"arcB.phase3.obj3": "Catch an Ocean Sunfish for the celebration."
 }
